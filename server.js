@@ -78,7 +78,7 @@ app.use(cookieParser())
 
 // Authentication middleware must be loaded before other middleware such as
 // static assets to prevent unauthorised access
-app.use(require('./lib/authentication.js')())
+app.use(require('./lib/authentication.js')['authentication']())
 
 const nunjucksConfig = {
   autoescape: true,
