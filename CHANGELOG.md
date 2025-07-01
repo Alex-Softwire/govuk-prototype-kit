@@ -2,6 +2,24 @@
 
 ## Unreleased
 
+## 13.17.0
+
+### New features
+
+- [#2434: Apply brand updates manage prototype pages](https://github.com/alphagov/govuk-prototype-kit/pull/2434)
+- [#2443: Add support for Node 22](https://github.com/alphagov/govuk-prototype-kit/pull/2443)
+- [#2439: Replace custom nav on management pages with service navigation](https://github.com/alphagov/govuk-prototype-kit/pull/2439)
+
+### Fixes
+
+- [#2408: Fix kit version update link](https://github.com/alphagov/govuk-prototype-kit/pull/2408)
+- [#2420: Fixing the default homepage](https://github.com/alphagov/govuk-prototype-kit/pull/2420)
+- [#2425: Fix open redirect vuln in login page](https://github.com/alphagov/govuk-prototype-kit/pull/2425)
+- [#2437: Fix version logic for showing whether a plugin has updates](https://github.com/alphagov/govuk-prototype-kit/pull/2437)
+- [#2442: Avoid warnings in the console when Sass files get compiled](https://github.com/alphagov/govuk-prototype-kit/pull/2442)
+- [#2413: Update dependencies to resolve npm audit warnings](https://github.com/alphagov/govuk-prototype-kit/pull/2413)
+- [#2417: Causing an error when session-data-defaults is malformed](https://github.com/alphagov/govuk-prototype-kit/pull/2417)
+
 ## 13.16.2
 
 ### Fixes
